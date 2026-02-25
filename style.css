@@ -1,15 +1,15 @@
 body{
     font-family:Arial,sans-serif;
-    color:#333;
-    background-color: #f9f9f9;
+    color:#c8c7d1;
+    background-color: #141414;
     margin:0;
     padding:0;
     line-height:1.6;
 }
 
 header{
-    background-color: #af4c4c;
-    color:rgb(255, 255, 255);
+    background-color: #74be29;
+    color:rgb(236, 232, 232);
     padding: 20px;
     text-align:center;
 }
@@ -19,7 +19,7 @@ header h1{
 }
 
 nav a{
-    color:white;
+    color:rgb(255, 255, 255);
     text-decoration:none;
     margin: 0 10px;
 }
@@ -43,7 +43,7 @@ main img{
 
 footer {
     background-color: #333;
-    color:white;
+    color:rgb(226, 224, 230);
     text-align:center;
     padding: 10px;
     position:fixed;
@@ -64,12 +64,19 @@ p{
  }
 
  img{
-    border:5px solid #4CAF50;
-    border-radius: 10px;
+    border:5px solid #0f0f0f;
+    border-radius: 3px;
+    width: 400px;
+
  }
 
  main a[href^="mailto:"]{
     color:#ff5722;
     font-weight: bold;
+ }
+ .card-body{
+ background-color:#0d0e0d;
+ color: #4CAF50;
+ border:none;
  }
 
